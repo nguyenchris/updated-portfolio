@@ -224,9 +224,9 @@ th {
     width: 90%;
 }
 
-.proj-sec img {
+img {
     height: 250px;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
 @media print {
