@@ -1972,6 +1972,50 @@ textarea.input-sm {
     border-radius: 3px
 }
 
+.skills p {
+    margin: 0;
+}
+
+.skills strong {
+    color: #9e2929;
+}
+
+.github-sub a {
+    text-decoration: none;
+}
+
+.proj-rows {
+    margin-bottom: 30px;
+}
+
+.subtitles {
+    margin-bottom: 0px;
+}
+.github-sub {
+    margin-top: 3px;
+}
+.github-sub {
+    color: black;
+}
+
+.proj-title:hover {
+    color: #9e2929;
+}
+
+a.proj-title-a{
+    text-decoration: none;
+}
+
+.github-sub:hover {
+    color: #9e2929;
+}
+.topics {
+    font-weight: bold;
+}
+.about-me-p {
+    font-size: 17px;
+}
+
 .form-group-sm select.form-control {
     height: 35px;
     line-height: 35px
