@@ -1790,6 +1790,78 @@ input[type=search] {
     -webkit-appearance: none
 }
 
+/* .go-back {
+    border-radius: 5px;
+    color: #9e2929;
+    background-color: grey;
+}
+
+.go-back:hover {
+    border-radius: 5px;
+    background-color: #9e2929;
+    color: black;
+} */
+
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 8px 16px;
+    font-size: 16px;
+    line-height: 1.58;
+    border-radius: 50px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #9e2929;
+    transition: .1s ease-in-out;
+}
+
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus,
+.btn:active:focus, .btn:focus {
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px
+}
+
+.btn.focus, .btn:focus, .btn:hover {
+    background-color: #9e2929;
+    text-decoration: none;
+    color: black;
+}
+
+.btn.active, .btn:active {
+    outline: 0;
+    background-image: none;
+    -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125)
+}
+
+.btn.disabled, .btn[disabled], fieldset[disabled] .btn {
+    cursor: not-allowed;
+    opacity: .65;
+    filter: alpha(opacity=65);
+    -webkit-box-shadow: none;
+    box-shadow: none
+}
+
+a.btn.disabled, fieldset[disabled] a.btn {
+    pointer-events: none
+}
+
+.btn-default {
+    color: #555;
+    background-color: #fff;
+    border-color: #ccc
+}
+
 @media screen and (-webkit-min-device-pixel-ratio:0) {
 
     input[type=date].form-control,
@@ -2383,7 +2455,7 @@ body.white {
 
 .card-block .row {
     animation-name: fadein;
-    animation-duration: 1.6s;
+    animation-duration: .9s;
 }
 
 .card .card-block {
