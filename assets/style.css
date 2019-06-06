@@ -215,9 +215,15 @@ th {
 }
 
 #about-pic {
-  border-radius: 200px;
+  border-radius: 50%;
   /* opacity: .9; */
   width: 90%;
+}
+
+@media (max-width: 991px) {
+  #about-pic {
+    margin: 0 auto 20px auto;
+  }
 }
 
 .proj-sec img {
@@ -225,7 +231,7 @@ th {
   border-radius: 8px;
 }
 
-@media (max-width: 786px) {
+@media (max-width: 991px) {
   .proj-sec img {
     height: auto;
   }
