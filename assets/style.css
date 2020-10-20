@@ -9,6 +9,7 @@ html {
 
 body {
   margin: 0;
+  overflow-x: hidden;
 }
 
 article,
@@ -229,6 +230,7 @@ th {
 .proj-sec img {
   height: 250px;
   border-radius: 8px;
+  object-fit: cover;
 }
 
 @media (max-width: 991px) {

@@ -30,6 +30,9 @@
          gtag('js', new Date());
          gtag('config', 'UA-180925300-1');
       </script>
+      <script>
+         history.scrollRestoration = "manual"
+      </script>
    </head>
 
    <body>
@@ -225,7 +228,7 @@
          <div class="container">
             <div class="row">
                <div class="col-xs-12">
-                  <p>&copy; 2019 Chris Nguyen. All right reserved.</p>
+                  <p>&copy; <span id="copy-year">2020</span> Chris Nguyen. All right reserved.</p>
                   <p class="social-buttons">
                      <a class="fa-icon fa-icon-2x" href="https://github.com/nguyenchris" title="" target="blank">
                         <i class="fa fa-github"></i>
@@ -246,6 +249,7 @@
          document.addEventListener('DOMContentLoaded', function (event) {
             scrollRevelation('.card');
          });
+         document.querySelector('#copy-year').textContent = new Date().getFullYear();
       </script>
       <script type="text/javascript" src="./assets/main.js"></script>
    </body>
